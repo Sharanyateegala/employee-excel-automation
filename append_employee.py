@@ -28,7 +28,7 @@ headers = [
     for col in (1, 2, 3)
 ]
 
-if headers != ["S_NO", "NAME", "EMPLOYEE_ID"]:
+if headers != ["S_NO", "EMPLOYEE_NAME", "EMPLOYEE_ID"]:
     raise ValueError(f"Unexpected Excel headings: {headers}")
 
 # Check for duplicate serial numbers
